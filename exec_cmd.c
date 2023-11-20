@@ -70,4 +70,3 @@ void exec_abs_cmd(shenv_t *se, char *arg0)
 	else if (is_interactive(STDIN_FILENO, se->buf))
 		_puts("\n");
 }
-
