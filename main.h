@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef MAI_H
+#define MAI_H
 
 #include <stdlib.h>
 #include <string.h>
@@ -126,5 +126,5 @@ int is_interactive(int fd, struct stat buff);
 /* helper3.c */
 int copy_into_strbuf(char buf[], int bufsize, char *src);
 
-#endif /* MAIN_H */
+#endif /* MAI_H */
 
